@@ -58,15 +58,6 @@ const Card = () => {
                 </p>
                 <Spacer />
                 <p className="text-sm md:text-lg text-gray-300 font-bold underline">
-                  interests
-                </p>
-                <p className="text-xs md:text-base text-gray-300">
-                  kpop, overwatch (masters peak - sup main), league (2025 d2
-                  peak - sup main), genshin (yoimiya, furina), lost ark (gs),
-                  basketball (lakers), skincare, fashion
-                </p>
-                <Spacer />
-                <p className="text-sm md:text-lg text-gray-300 font-bold underline">
                   background
                 </p>
                 <p className="text-xs md:text-base text-gray-300">
@@ -115,6 +106,15 @@ const Card = () => {
                 </p>
                 <p className="text-xs md:text-base text-gray-300">
                   NOTD, Porter Robinson, LiSA, any Dance Pop or Pop Rock
+                </p>
+                <Spacer />
+                <p className="text-sm md:text-lg text-gray-300 font-bold underline">
+                  other interests
+                </p>
+                <p className="text-xs md:text-base text-gray-300">
+                  overwatch (masters peak - sup main), league (2025 d2
+                  peak - sup main), genshin (yoimiya, furina), lost ark (gs),
+                  basketball (lakers), skincare, fashion
                 </p>
               </div>
             </motion.div>
