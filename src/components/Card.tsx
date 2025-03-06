@@ -112,8 +112,8 @@ const Card = () => {
                   other interests
                 </p>
                 <p className="text-xs md:text-base text-gray-300">
-                  overwatch (masters peak - sup main), league (2025 d2
-                  peak - sup main), genshin (yoimiya, furina), lost ark (gs),
+                  overwatch (masters peak - sup main), league (2025 d2 peak -
+                  sup main), genshin (yoimiya, furina), lost ark (gs),
                   basketball (lakers), skincare, fashion
                 </p>
               </div>
