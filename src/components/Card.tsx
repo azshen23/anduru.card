@@ -54,7 +54,7 @@ const Card = () => {
               <p className="text-xs md:text-md text-gray-400">EN/CN/KR/ESP</p>
               <div className="mt-2 md:mt-4">
                 <p className="text-xs md:text-base text-gray-300">
-                  lf moots ! i will fb ! (unless major 🚩)
+                  lf moots ! i fb !
                 </p>
                 <Spacer />
                 <p className="text-sm md:text-lg text-gray-300 font-bold underline">
