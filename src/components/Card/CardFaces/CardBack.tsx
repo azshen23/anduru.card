@@ -22,7 +22,7 @@ function CardBack() {
     "Baddie",
   ];
   return (
-    <>
+    <div className="flex-col w-full items-center text-center">
       <h2 className="text-lg md:text-2xl font-bold mb-2 md:mb-4">
         IVE song top 20 ranking
       </h2>
@@ -41,7 +41,7 @@ function CardBack() {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 }
 

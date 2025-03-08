@@ -2,7 +2,7 @@ import Spacer from "../../Spacer";
 
 function CardFront() {
   return (
-    <>
+    <div className="w-full text-center">
       <h1 className="text-lg md:text-2xl font-bold">andrew</h1>
       <p className="text-xs md:text-md text-gray-400">23 `01</p>
       <p className="text-xs md:text-md text-gray-400">🇨🇳🇺🇸</p>
@@ -65,7 +65,7 @@ function CardFront() {
           skincare, fashion
         </p>
       </div>
-    </>
+    </div>
   );
 }
 
