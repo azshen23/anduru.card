@@ -53,6 +53,10 @@ const Card = () => {
           </div>
         </motion.div>
       </div>
+      <p className="text-xs md:text-base">(not made with carrd)</p>
+      <p className="text-xs md:text-base">
+        (click card for my ive song ranking)
+      </p>
     </div>
   );
 };

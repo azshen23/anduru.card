@@ -4,9 +4,9 @@ function CardFront() {
   return (
     <div className="w-full text-center">
       <h1 className="text-lg md:text-2xl font-bold">andrew</h1>
-      <p className="text-xs md:text-md text-gray-400">23 `01</p>
-      <p className="text-xs md:text-md text-gray-400">🇨🇳🇺🇸</p>
-      <p className="text-xs md:text-md text-gray-400">EN/CN/KR/ESP</p>
+      <p className="text-xs md:text-lg text-gray-400">23 `01</p>
+      <p className="text-xs md:text-lg text-gray-400">🇨🇳🇺🇸</p>
+      <p className="text-xs md:text-lg text-gray-400">EN/CN/KR/ESP</p>
       <div className="mt-2 md:mt-4">
         <p className="text-xs md:text-base text-gray-300">lf moots ! i fb !</p>
         <Spacer />
