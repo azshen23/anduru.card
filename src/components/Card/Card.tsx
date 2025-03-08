@@ -34,7 +34,7 @@ const Card = () => {
                 backfaceVisibility: "hidden",
                 WebkitBackfaceVisibility: "hidden",
                 transformStyle: "preserve-3d",
-                willChange: "transform",
+                willChange: "transform, opacity",
               }}
             >
               <CardFront />
@@ -55,7 +55,7 @@ const Card = () => {
                 backfaceVisibility: "hidden",
                 WebkitBackfaceVisibility: "hidden",
                 transformStyle: "preserve-3d",
-                willChange: "transform",
+                willChange: "transform, opacity",
               }}
             >
               <CardBack />
