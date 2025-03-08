@@ -7,20 +7,20 @@ const Card = () => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   return (
-    <div className="flex flex-col h-screen w-full items-center justify-center bg-gradient-to-b from-gray-900 to-black text-white px-4">
+    <div className="flex flex-col h-screen w-full items-center justify-start md:justify-center bg-gradient-to-b from-gray-900 to-black text-white px-4 pt-8 md:pt-0">
       <div
-        className="relative w-full md:w-[700px] h-[600px] md:h-[750px] cursor-pointer items-center"
+        className="relative w-full max-w-[700px] h-[600px] md:h-[750px] cursor-pointer flex items-center justify-center"
         onClick={() => setIsFlipped(!isFlipped)}
         style={{
           perspective: "1000px",
         }}
       >
-        {/* Shared motion.div for smooth flipping */}
+        {/* Flipping Container */}
         <motion.div
           className="relative w-full h-full rounded-xl shadow-lg border border-gray-700"
           animate={{ rotateY: isFlipped ? 180 : 0 }}
           transition={{
-            duration: 0.3, // Slightly longer to smooth out transitions
+            duration: 0.3,
             ease: "easeInOut",
             type: "tween",
           }}
@@ -31,7 +31,7 @@ const Card = () => {
         >
           {/* Front Face */}
           <div
-            className="absolute w-full h-full bg-gray-800 p-4 md:p-6 rounded-xl"
+            className="absolute w-full h-full flex items-center justify-center bg-gray-800 p-4 md:p-6 rounded-xl"
             style={{
               backfaceVisibility: "hidden",
               WebkitBackfaceVisibility: "hidden",
@@ -42,7 +42,7 @@ const Card = () => {
 
           {/* Back Face */}
           <div
-            className="absolute w-full h-full bg-gray-800 p-4 md:p-6 rounded-xl"
+            className="absolute w-full h-full flex items-center justify-center bg-gray-800 p-4 md:p-6 rounded-xl"
             style={{
               backfaceVisibility: "hidden",
               WebkitBackfaceVisibility: "hidden",
