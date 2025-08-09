@@ -3,14 +3,14 @@ function CardBack() {
     "Off The Record",
     "OTT",
     "Love Dive",
+    "Supernova Love",
+    "Attitude",
     "Next Page",
     "After Like",
-    "Supernova Love",
+    "Rebel Heart",
     "Mine",
     "I AM",
     "Either Way",
-    "Attitude",
-    "Rebel Heart",
     "Lips",
     "Accendio",
     "HEYA",
@@ -18,8 +18,8 @@ function CardBack() {
     "Payback",
     "Cherish",
     "Ice Queen",
+    "Thank U",
     "Kitsch",
-    "Baddie",
   ];
   return (
     <div className="flex-col w-full items-center text-center">
