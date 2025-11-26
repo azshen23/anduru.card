@@ -6,7 +6,6 @@ function CardFront() {
       <h1 className="text-lg md:text-2xl font-bold">andrew</h1>
       <p className="text-xs md:text-lg text-gray-400">24 `01</p>
       <p className="text-xs md:text-lg text-gray-400">chinese american</p>
-      <p className="text-xs md:text-lg text-gray-400">EN/CN/KR/ESP</p>
       <div className="mt-2 md:mt-4">
         <p className="text-sm md:text-lg text-gray-300 font-bold underline">
           background
